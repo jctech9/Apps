@@ -1,18 +1,12 @@
-﻿# Teste de Velocidade (GitHub Pages)
+# Apps
 
-Pagina estatica para medir **ping**, **download** e **upload** direto no navegador, pensada para hospedar no **GitHub Pages**.
+This repo contains multiple small apps under `Apps/`.
 
-## Como funciona
+## Android: Flashlight Timer
+- Path: `Apps/FlashlightTimerAndroid/`
+- Build (Windows): `cd Apps/FlashlightTimerAndroid` then `./gradlew.bat assembleDebug`
+- Output APK: `Apps/FlashlightTimerAndroid/app/build/outputs/apk/debug/app-debug.apk`
+- Published debug APK in repo: `Apps/FlashlightTimerAndroid/apk/flashlight-timer-debug.apk`
 
-- Nao existe um jeito 100% "Speedtest-like" sem infraestrutura propria (varios servidores + backend).
-- Aqui a pagina mede a taxa usando requisicoes `fetch` para um servidor publico (Cloudflare) que expoe endpoints de teste com CORS.
-
-## Publicar no GitHub Pages
-
-1. Suba este repositorio para o GitHub.
-2. Em **Settings > Pages**, selecione:
-   - Source: `Deploy from a branch`
-   - Branch: `main` (ou `master`)
-   - Folder: `/ (root)`
-
-Abra a URL do Pages e clique em **Iniciar**.
+## Web: SpeedTest
+- Path: `Apps/SpeedTestWeb/`
