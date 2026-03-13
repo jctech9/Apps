@@ -1,0 +1,8 @@
+/.gradle/
+/.gradle-bootstrap/
+/.android-sdk/
+/local.properties
+/app/build/
+/app/.cxx/
+/.idea/
+*.iml
