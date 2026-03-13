@@ -1,12 +1,11 @@
 # Apps
 
-This repo contains multiple small apps under `Apps/`.
+## Flashlight Timer (Android)
 
-## Android: Flashlight Timer
-- Path: `Apps/FlashlightTimerAndroid/`
-- Build (Windows): `cd Apps/FlashlightTimerAndroid` then `./gradlew.bat assembleDebug`
-- Output APK: `Apps/FlashlightTimerAndroid/app/build/outputs/apk/debug/app-debug.apk`
-- Published debug APK in repo: `Apps/FlashlightTimerAndroid/apk/flashlight-timer-debug.apk`
+- Projeto: `Apps/FlashlightTimerAndroid/`
+- Build (Windows): `cd Apps/FlashlightTimerAndroid` e rode `./gradlew.bat assembleDebug`
+- APK gerado localmente: `Apps/FlashlightTimerAndroid/app/build/outputs/apk/debug/app-debug.apk`
 
-## Web: SpeedTest
-- Path: `Apps/SpeedTestWeb/`
+### Download do APK
+
+- [Baixar flashlight-timer-debug.apk](https://github.com/jctech9/Apps/raw/main/Apps/FlashlightTimerAndroid/apk/flashlight-timer-debug.apk)
